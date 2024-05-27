@@ -1,0 +1,152 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: Catalog.action",
+                "infFile": "t1.inf",
+                "time": 1716630453754
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: Sign In",
+                "infFile": "t2.inf",
+                "time": 1716630456073
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: Account.action",
+                "infFile": "t3.inf",
+                "time": 1716630458739
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: sm_fish.gif",
+                "infFile": "t4.inf",
+                "time": 1716630461068
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: FI-SW-02",
+                "infFile": "t5.inf",
+                "time": 1716630463409
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: EST-3",
+                "infFile": "t6.inf",
+                "time": 1716630467019
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: Add to Cart",
+                "infFile": "t7.inf",
+                "time": 1716630471522
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: Proceed to Checkout",
+                "infFile": "t8.inf",
+                "time": 1716630475849
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: Order.action",
+                "infFile": "t9.inf",
+                "time": 1716630479171
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: Confirm",
+                "infFile": "t10.inf",
+                "time": 1716630481474
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: Sign Out",
+                "infFile": "t11.inf",
+                "time": 1716630483949
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "JpetStore_SC01_TC01_Launch",
+                "rawStartTime": 1716630452721,
+                "rawEndTime": 1716630453798,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05549001693725586
+            },
+            {
+                "transactionName": "JpetStore_SC01_TC02_Signin",
+                "rawStartTime": 1716630455858,
+                "rawEndTime": 1716630456108,
+                "thinkTime": 0.0,
+                "wastedTime": 0.002699613571166992
+            },
+            {
+                "transactionName": "JpetStore_SC01_TC03_Login",
+                "rawStartTime": 1716630458168,
+                "rawEndTime": 1716630458779,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007449150085449219
+            },
+            {
+                "transactionName": "JpetStore_SC01_TC04_Click_On_Fish",
+                "rawStartTime": 1716630460834,
+                "rawEndTime": 1716630461117,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010075569152832032
+            },
+            {
+                "transactionName": "JpetStore_SC01_TC05_Click_On_Product_ID",
+                "rawStartTime": 1716630463173,
+                "rawEndTime": 1716630463443,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004942417144775391
+            },
+            {
+                "transactionName": "JpetStore_SC01_TC06_Click_On_EST-3",
+                "rawStartTime": 1716630466490,
+                "rawEndTime": 1716630467057,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0033299922943115236
+            },
+            {
+                "transactionName": "JpetStore_SC01_TC07_cloick_On_Add_To_Cart",
+                "rawStartTime": 1716630471109,
+                "rawEndTime": 1716630471569,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005027294158935547
+            },
+            {
+                "transactionName": "JpetStore_SC01_TC08_Click_On_Product_To_Checkout",
+                "rawStartTime": 1716630475623,
+                "rawEndTime": 1716630475894,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004357099533081055
+            },
+            {
+                "transactionName": "JpetStore_SC01_TC09_Click_On_Continue",
+                "rawStartTime": 1716630478951,
+                "rawEndTime": 1716630479206,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004777431488037109
+            },
+            {
+                "transactionName": "JpetStore_SC01_TC10_Click_On_Confirm",
+                "rawStartTime": 1716630481261,
+                "rawEndTime": 1716630481512,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00406336784362793
+            },
+            {
+                "transactionName": "JpetStore_SC01_TC11_Click_On_Sign_Out",
+                "rawStartTime": 1716630483574,
+                "rawEndTime": 1716630483983,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004772663116455078
+            }
+        ]
+    }
+]

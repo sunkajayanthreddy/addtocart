@@ -1,0 +1,11 @@
+HTTP/1.1 200 
+Date: Thu, 23 May 2024 09:50:26 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: JSESSIONID=A9278E7DAF855900C95F883E37E745EE; Path=/; HttpOnly
+Content-Language: en-US
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Encoding: gzip
+

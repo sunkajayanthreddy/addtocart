@@ -1,0 +1,299 @@
+[API Trapper      (3e34:3294)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 7e0:5a0c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (25f0:3118)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (25f0:1fa4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (25f0:1fa4)] Load Network Traffic Analyzers:
+[Network Analyzer (25f0:1fa4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (25f0:1fa4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (25f0:1fa4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (25f0:1fa4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (25f0:1fa4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (25f0:1fa4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (25f0:1fa4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (25f0:1fa4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (25f0:2e20)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 172.217.31.195:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0: 2c0)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 172.217.194.84:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (25f0: 2c0)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (25f0:4e80)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (25f0:4e80)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (25f0:2e20)] "GET /actions/Catalog.action"   
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Client -> Server @ : 701 bytes (SSL)(Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=125"   
+[Network Analyzer (25f0:2e20)]   (Sid:  2) Client -> Server @ : 475 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:43ac)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (25f0:43ac)] SSLAccept(ssl_id = 1569837424688 = 0000016D819A2030) Failed, ctx = 0000016D819B2A00, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (25f0:43ac)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Server -> Client : 1589 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Server -> Client : 462 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /css/jpetstore.css"   
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Client -> Server @ : 648 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:2e20)]   (Sid:  2) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Server -> Client : 1577 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Server -> Client : 455 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:2e20)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:4c30)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:18fc)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (25f0:47a4)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (25f0:4c30)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (25f0:18fc)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (25f0:2e20)] "GET /images/logo-topbar.svg"   
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Client -> Server @ : 699 bytes (SSL)(Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /images/cart.gif"   
+[Network Analyzer (25f0:2e20)]   (Sid:  4) Client -> Server @ : 692 bytes (SSL)(Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /images/separator.gif"   
+[Network Analyzer (25f0:2e20)]   (Sid:  5) Client -> Server @ : 697 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:47a4)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Web Request      (25f0:2e20)] "GET /images/splash.gif"   
+[Network Analyzer (25f0:2e20)]   (Sid:  6) Client -> Server @ : 694 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 142.250.182.42:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (25f0:2e20)]   (Sid:  5) Server -> Client : 338 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Server -> Client : 2005 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Server -> Client : 1626 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Server -> Client : 1700 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Server -> Client : 1653 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Server -> Client : 53 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  4) Server -> Client : 1956 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /images/sm_cats.gif"   
+[Network Analyzer (25f0:2e20)]   (Sid:  5) Client -> Server @ : 695 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:586c)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (25f0:2e20)] "GET /images/birds_icon.gif"   
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Client -> Server @ : 698 bytes (SSL)(Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /images/dogs_icon.gif"   
+[Network Analyzer (25f0:2e20)]   (Sid:  4) Client -> Server @ : 697 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:586c)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (25f0:2e20)]   (Sid:  6) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  6) Server -> Client : 97 bytes (SSL) (Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /images/sm_birds.gif"   
+[Network Analyzer (25f0:2e20)]   (Sid:  7) Client -> Server @ : 696 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  6) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  6) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  6) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Server -> Client : 765 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  4) Server -> Client : 762 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  5) Server -> Client : 583 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  6) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  6) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  6) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  7) Server -> Client : 545 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  6) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  6) Server -> Client : 3530 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:5d50)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (25f0:2e20)] "GET /images/fish_icon.gif"   
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Client -> Server @ : 697 bytes (SSL)(Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /images/reptiles_icon.gif"   
+[Network Analyzer (25f0:2e20)]   (Sid:  4) Client -> Server @ : 701 bytes (SSL)(Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /images/cats_icon.gif"   
+[Network Analyzer (25f0:2e20)]   (Sid:  5) Client -> Server @ : 697 bytes (SSL)(Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /images/sm_fish.gif"   
+[Network Analyzer (25f0:2e20)]   (Sid:  7) Client -> Server @ : 695 bytes (SSL)(Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /images/sm_dogs.gif"   
+[Network Analyzer (25f0:2e20)]   (Sid:  6) Client -> Server @ : 695 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:5d50)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (25f0:3de4)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (25f0:3de4)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Server -> Client : 733 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  5) Server -> Client : 702 bytes (SSL) (Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /images/sm_reptiles.gif"   
+[Network Analyzer (25f0:2e20)]   (Sid:  8) Client -> Server @ : 699 bytes (SSL)(Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /v1/pages/ChRDaHJvbWUvMTI1LjAuNjQyMi43NxIZCd-HvMqPGywPEgUNAo_7aCEGbNZb66Z6ag==?alt=proto"   
+[Network Analyzer (25f0:2e20)]   (Sid:  9) Client -> Server @ : 541 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  4) Server -> Client : 963 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  7) Server -> Client : 565 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  6) Server -> Client : 600 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  9) Server -> Client : 483 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  8) Server -> Client : 692 bytes (SSL) (Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /favicon.ico"   
+[Network Analyzer (25f0:2e20)]   (Sid:  8) Client -> Server @ : 688 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  8) Server -> Client : 763 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid:  8) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 64.233.170.188:5228   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 142.250.77.163:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (25f0:2e20)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (25f0:2e20)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (25f0:2e20)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (25f0:2e20)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (25f0:2e20)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (25f0:2e20)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (25f0:2e20)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (25f0:2e20)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:2834)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 142.250.77.163:443   (Service=)  (Sid= 12)  PROXIED!
+[API Trapper      (1c38:2b30)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (25f0:5f80)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (25f0:5f80)] SSLAccept(ssl_id = 1569843320176 = 0000016D81F41570) Failed, ctx = 0000016D8198E790, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (25f0:5f80)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (25f0:2e20)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 142.250.77.163:443   (Service=)  (Sid= 13)  PROXIED!
+[Net An. Error    (25f0:2834)] SSLAccept(ssl_id = 1569843275536 = 0000016D81F36710) Failed, ctx = 0000016D819B2A00, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (25f0:2834)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (25f0:40c0)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (25f0:40c0)] SSLAccept(ssl_id = 1569843320176 = 0000016D81F41570) Failed, ctx = 0000016D8198E790, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (25f0:40c0)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (25f0:2e20)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (25f0: d60)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (25f0: d60)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 142.250.77.170:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (25f0:34f4)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (25f0:34f4)] SSLAccept(ssl_id = 1569843290416 = 0000016D81F3A130) Failed, ctx = 0000016D819B2A00, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (25f0:34f4)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:2e20)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 142.250.182.10:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (25f0:5470)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (25f0:5470)] SSLAccept(ssl_id = 1569843305296 = 0000016D81F3DB50) Failed, ctx = 0000016D819B2A00, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (25f0:5470)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (25f0:2e20)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 216.58.200.142:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (25f0:2e20)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (25f0:169c)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (25f0:169c)] SSLAccept(ssl_id = 1569843327616 = 0000016D81F43280) Failed, ctx = 0000016D819B2A00, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (25f0:169c)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (25f0:2e20)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (25f0:2e20)]   (Sid: 13) Connection Terminated (by Server)
+[API Trapper      ( cdc: c24)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (3648:236c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 64.233.170.188:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (25f0:3728)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (25f0:3728)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (25f0:2e20)]   (Sid: 17) Client -> Server @ : 191 bytes (SSL)
+[Network Analyzer (25f0:2e20)]   (Sid: 17) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (25f0:2e20)]   (Sid: 17) Server -> Client : 66 bytes (SSL)
+[Network Analyzer (25f0:2e20)]   (Sid: 17) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 172.217.31.195:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 142.250.77.163:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (25f0:2b94)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (25f0:2b94)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (25f0:50d8)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (25f0:50d8)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (25f0:2e20)] "POST /service/update2/json?cup2key=14:PJRNBpY0CSbGPNHQaRl3azZiPasTpoDQF5Dinp-PZrc&cup2hreq=0f8e24fd1e6406090eb5509ed511aad229584da8921586fd19f476bf60fa37ec"
+[Network Analyzer (25f0:2e20)]   (Sid: 19) Client -> Server @ : 1338 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 19) Client -> Server @ : 8502 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 19) Server -> Client : 1148 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 19) Server -> Client : 1047 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 19) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[User action                 ] StartTransactionEvent Jpet_Store_SC01_TC01_Sign_In [Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (25f0:4c58)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (25f0:4c58)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (25f0:2e20)] "GET /actions/Account.action;jsessionid=C369785BB35F8BB8424FA1877643D377?signonForm="   
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Client -> Server @ : 880 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 1926 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 142.250.182.42:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (25f0:27ac)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (25f0:27ac)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (25f0:2e20)]   (Sid: 21) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent Jpet_Store_SC01_TC01_Sign_In [Network Analyzer (25f0:1fa4)] Address lookup for Mahesh = 192.168.68.12
+[Network Analyzer (25f0:1fa4)] Request Connection: Remote Server @ 142.250.193.170:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (25f0:336c)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (25f0:336c)] SSLAccept(ssl_id = 1569843224864 = 0000016D81F2A120) Failed, ctx = 0000016D819B2A00, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (25f0:336c)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (25f0:2e20)]   (Sid: 22) Connection Terminated (by Client)
+[API Trapper      (3190:4588)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[User action                 ] StartTransactionEvent Jpet_Store_SC01_TC01_Login [Web Request      (25f0:2e20)] "POST /actions/Account.action"   
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Client -> Server @ : 1249 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 230 bytes (SSL) (Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /actions/Catalog.action"   
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Client -> Server @ : 906 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 1652 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 360 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /images/banner_dogs.gif"   
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Client -> Server @ : 699 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 97 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 2264 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Jpet_Store_SC01_TC01_Login [User action                 ] StartTransactionEvent Jpet_Store_SC01_TC01_Click_On_Fish [Web Request      (25f0:2e20)] "GET /actions/Catalog.action?viewCategory=&categoryId=FISH"   
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Client -> Server @ : 854 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 1726 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Jpet_Store_SC01_TC01_Click_On_Fish [User action                 ] StartTransactionEvent Jpet_Store_SC01_TC01_Click_On_Product_ID [Web Request      (25f0:2e20)] "GET /actions/Catalog.action?viewProduct=&productId=FI-SW-02"   
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Client -> Server @ : 886 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 1782 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Jpet_Store_SC01_TC01_Click_On_Product_ID [User action                 ] StartTransactionEvent Jpet_Store_SC01_TC01_Click_On_EST-3 [Web Request      (25f0:2e20)] "GET /actions/Catalog.action?viewItem=&itemId=EST-3"   
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Client -> Server @ : 879 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 1793 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /images/fish4.gif"   
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Client -> Server @ : 716 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 97 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 3344 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Jpet_Store_SC01_TC01_Click_On_EST-3 [User action                 ] StartTransactionEvent Jpet_Store_SC01_TC01_cloick_On_Add_To_Cart [Web Request      (25f0:2e20)] "GET /actions/Cart.action?addItemToCart=&workingItemId=EST-3"   
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Client -> Server @ : 879 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 1860 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 317 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Jpet_Store_SC01_TC01_cloick_On_Add_To_Cart [Network Analyzer (25f0:2e20)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer (25f0:2e20)]   (Sid: 19) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent Jpet_Store_SC01_TC01_Click_On_Product_To_Checkout [Web Request      (25f0:2e20)] "GET /actions/Order.action?newOrderForm="   
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Client -> Server @ : 868 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 1771 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 611 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Jpet_Store_SC01_TC01_Click_On_Product_To_Checkout [User action                 ] StartTransactionEvent Jpet_Store_SC01_TC01_Click_On_Continue [Network Analyzer (25f0:2e20)]   (Sid: 20) Client -> Server @ : 970 bytes (SSL)(Service=HTTP)
+[Web Request      (25f0:2e20)] "POST /actions/Order.action"   
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Client -> Server @ : 561 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 1703 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 272 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Jpet_Store_SC01_TC01_Click_On_Continue [User action                 ] StartTransactionEvent Jpet_Store_SC01_TC01_Click_On_Confirm [Web Request      (25f0:2e20)] "GET /actions/Order.action?newOrder=&confirmed=true"   
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Client -> Server @ : 845 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 1761 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 430 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Jpet_Store_SC01_TC01_Click_On_Confirm [User action                 ] StartTransactionEvent Jpet_Store_SC01_TC01_Click_On_Sign_Out [Web Request      (25f0:2e20)] "GET /actions/Account.action?signoff="   
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 230 bytes (SSL) (Service=HTTP)
+[Web Request      (25f0:2e20)] "GET /actions/Catalog.action"   
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Client -> Server @ : 847 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 1696 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 313 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:2e20)]   (Sid: 20) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Jpet_Store_SC01_TC01_Click_On_Sign_Out 
